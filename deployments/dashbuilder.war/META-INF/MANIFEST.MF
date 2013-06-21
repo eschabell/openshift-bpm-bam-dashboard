@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Build-Timestamp: Fri, 17 May 2013 12:40:29 +0200
+Implementation-Title: Dashboard Distributions Builder
+Implementation-Version: 6.0.0-SNAPSHOT
+Os-Version: 10.8.3
+Built-By: erics
+Specification-Vendor: JBoss by Red Hat
+Created-By: Apache Maven
+Os-Name: Mac OS X
+Implementation-URL: http://www.jboss.org/drools/dashboard-builder/buil
+ der
+Java-Vendor: Oracle Corporation
+Implementation-Vendor: JBoss by Red Hat
+Scm-Revision: bce7a84fd8b91d38b1937ec6fbcf9ca0dfdb8b04
+Implementation-Vendor-Id: org.jboss.dashboard-builder
+Scm-Url: https://github.com/droolsjbpm/dashboard-builder/builder
+Build-Jdk: 1.7.0_05
+Java-Version: 1.7.0_05
+Scm-Connection: scm:git:git@github.com:droolsjbpm/dashboard-builder.gi
+ t/builder
+Os-Arch: x86_64
+Specification-Title: Dashboard Distributions Builder
+Specification-Version: 6.0.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+
