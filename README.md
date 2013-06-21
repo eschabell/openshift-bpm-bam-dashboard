@@ -14,6 +14,22 @@ Create a JBoss AS instance
 
     rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-bpm-bam-dashboard.git bampreview
 
+There is one step to add the user login files that are not being correctly copied to the JBoss server:
+
+    rhc app show bampreview
+
+You need to locate the 'SSH' line to use for 'scp' files:
+
+  Created:         4:16 PM
+  Gears:           1 (defaults to small)
+  Git URL:         ssh://xxxxxxxxxxx@bampreview-inthe.rhcloud.com/~/git/bampreview.git/
+  Initial Git URL: git://github.com/eschabell/openshift-bpm-bam-dashboard.git
+  SSH:             xxxxxxxxxx@bampreview-inthe.rhcloud.com
+
+Using the SSH line, copy the following files, then the login will work below.
+
+     scp bampreview/.openshift/config/bam-*.properties xxxxxxxxxx@bampreview-inthe.rhcloud.com:~/jbossas/standalone/configuration/
+
 That's it, you can now checkout your application at:
 
     http://bampreview-$your_domain.rhcloud.com     
