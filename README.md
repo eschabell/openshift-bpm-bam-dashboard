@@ -18,12 +18,8 @@ There is one step to add the user login files that are not being correctly copie
 
     rhc app show bampreview
 
-You need to locate the 'SSH' line to use for 'scp' files:
+You need to locate the 'SSH' line in output of above command to use for 'scp' files:
 
-  Created:         4:16 PM
-  Gears:           1 (defaults to small)
-  Git URL:         ssh://xxxxxxxxxxx@bampreview-inthe.rhcloud.com/~/git/bampreview.git/
-  Initial Git URL: git://github.com/eschabell/openshift-bpm-bam-dashboard.git
   SSH:             xxxxxxxxxx@bampreview-inthe.rhcloud.com
 
 Using the SSH line, copy the following files, then the login will work below.
