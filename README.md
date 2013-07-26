@@ -43,5 +43,7 @@ Just follow the link provided to the designer login:
 Releases
 ---------
 
+- v1.1 running on JBoss AS 7, standalone product BAM Dashboard Builder.
+
 - v1.0 running on JBoss AS 7, standalone BAM Dashboard Builder.
 
