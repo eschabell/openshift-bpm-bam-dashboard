@@ -40,6 +40,15 @@ Just follow the link provided to the designer login:
 
        password: erics
 
+
+Screenshots
+-----------
+
+![BAM Dashbuilder](/images/login.png "Login")
+
+![BAM Dashboard](/images/dashboard.png "Dashboard")
+
+
 Releases
 ---------
 
