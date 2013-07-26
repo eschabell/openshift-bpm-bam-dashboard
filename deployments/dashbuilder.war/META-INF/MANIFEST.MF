@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Build-Timestamp: Mon, 22 Jul 2013 18:17:15 +0200
+Implementation-Title: Dashboard Distributions Builder
+Implementation-Version: 6.0.0-SNAPSHOT
+Os-Version: 3.4.0-030400-generic
+Built-By: dgutierr
+Specification-Vendor: JBoss by Red Hat
+Created-By: Apache Maven
+Os-Name: Linux
+Implementation-URL: http://www.jboss.org/drools/dashboard-builder/buil
+ der
+Java-Vendor: Sun Microsystems Inc.
+Implementation-Vendor: JBoss by Red Hat
+Scm-Revision: 2f03a367cf43fb3b691d919cdd578b4e38cedf84
+Implementation-Vendor-Id: org.jboss.dashboard-builder
+Scm-Url: https://github.com/droolsjbpm/dashboard-builder/builder
+Build-Jdk: 1.6.0_35
+Java-Version: 1.6.0_35
+Scm-Connection: scm:git:git@github.com:droolsjbpm/dashboard-builder.gi
+ t/builder
+Os-Arch: amd64
+Specification-Title: Dashboard Distributions Builder
+Specification-Version: 6.0.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+
