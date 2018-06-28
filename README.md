@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-bpm-bam-dashboard)
+
+
 JBoss BPM BAM Dashboard Builder on OpenShift 
 ============================================
 Installing the JBoss BPM Dashboard Builder standalone on OpenShift was never easier!
